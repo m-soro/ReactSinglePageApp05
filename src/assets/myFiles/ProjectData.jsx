@@ -1,5 +1,7 @@
 // github icons - https://github.com/m-soro/icons/blob/main/js01-64.png?raw=true
-let url = `https://github.com/m-soro/icons/blob/main/`;
+// let url = `https://github.com/m-soro/icons/blob/main/`;
+// for the icons and images - run these files to -> https://tinypng.com/
+let url = `https://github.com/m-soro/icons/blob/main/icons/`;
 let ext = `.png?raw=true`;
 
 export const ProjectData = [
@@ -11,28 +13,30 @@ export const ProjectData = [
       "https://github.com/m-soro/Project_1/blob/main/image/pong-logo.jpeg?raw=true",
       "https://github.com/m-soro/Project_1/raw/main/image/demo-big-screen.gif?raw=true",
     ],
-    summary: `My first project for Per Scholas Software Engineering Track. I created a Pong game in vanilla JavaScript`,
+    summary: `My first project for Per Scholas Software Engineering Track. This is a Pong game in vanilla JavaScript.`,
 
     projectBullets: [
-      "This app is responsive, play on mobile or in the web.",
-      "Can use mouse drag the paddle or keyboard keys.",
+      "This app can be played with your phone or on the web.",
+      "Can be controlled by dragging the mouse or keyboard keys if played on the web.",
+      "Three levels of difficulty.",
+      "Options to toggle sounds and background music.",
       "Minimal design and intuitive.",
     ],
     moreDetail: [
-      `This is a collision based game. I started with researching how other developers did this and wrote this based in my understanding.`,
-      `I faced many challenges in back end and front end. Mostly it was referencing variables.`,
+      `This is a collision based game. I knew I wanted to create something interactive and that I would like to play. 
+       I decided to do this project because I wanted to learn about collision based games.`,
+      `My original plan was to create an object oriented game but that proved to be difficult. After this project was built I could see how I could re-write this following object oriented principles.`,
+      `Design wise, I kept the design to a minimum. I added some "keep playing" motivating messages every 20th score to make it more fun and also a chime every 100th score.`,
+      `I had a lot fun building and playing this app. Read more details about it in the github repo.`,
     ],
     stack: [
       `${url}js01-64${ext}`,
-      `${url}python01-64${ext}`,
-      `${url}sql02-64${ext}`,
-      `${url}react02-64${ext}`,
-      `${url}js01-64${ext}`,
-      `${url}python01-64${ext}`,
+      `${url}html01-64${ext}`,
+      `${url}css01-64${ext}`,
     ],
     demoLink: "https://m-soro.github.io/Project_1/",
     repoLink: "https://github.com/m-soro/Project_1",
-    repoAPI: "https://api.github.com/repos/m-soro/business-analytics",
+    repoAPI: "https://api.github.com/repos/m-soro/Project_1",
   },
   {
     id: 2,
